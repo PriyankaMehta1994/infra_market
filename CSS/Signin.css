@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../Images/Covers/house3.jpg");
+    background-size: cover;
+}
+
+.container{
+    padding-top: 5px;
+}
+
+.card-container.card {
+    max-width: 550px;
+    padding: 40px 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px 25px 20px;
+    margin: 0 auto 20px;
+    margin-top: 20px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.form-signin #inputs {
+    direction: ltr;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Domine', serif;
+    border-radius: 0%;
+    border-color: #a0a0a0;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.form-signin .form-control:focus {
+    border-color: #a0a0a0;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #bab8b8;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #bab8b8;
+    font-family: 'Domine', serif;
+}
+
+.btn.btn-signin {
+    border-radius: 0%;
+    border-width: 2px;
+    border-color: #6d6d6d;
+    color: #969494;
+    padding-bottom: 10px;
+}
+
+.buttonClass:hover{
+    color : #606060;
+    background-color: #eae8e8;
+}
+
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    outline: none;
+    border-color: #6d6d6d;
+    color: #969494;
+}
+
+.back-to-login {
+    color: #7c7b7b;
+    font-size: 13px;
+    font-family: 'Domine', serif;
+}
+
+#tagline{
+    padding-bottom: 3%;
+    font-size: 30px; 
+    font-family: 'Domine', serif;
+    font-weight: bold;
+}
+
+.back-to-login:hover,
+.back-to-login:active,
+.back-to-login:focus{
+    color: #565555;
+    font-size: 13px;
+    font-family: 'Domine', serif;
+}
